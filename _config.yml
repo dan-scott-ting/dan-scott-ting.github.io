@@ -1,0 +1,21 @@
+# Site settings
+title: Dan's Mystical Journey
+header-img: img/home-bg.png
+email: daniel.scott.ting@gmail.com
+copyright_name: dan-scott-ting
+description: > # this means to ignore newlines until "baseurl:"
+  Wherein I Learn to Code
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  dan-scott-ting
+learn_profile: dan-scott-ting
+email_username: daniel.scott.ting@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
